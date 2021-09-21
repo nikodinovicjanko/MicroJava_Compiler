@@ -1,0 +1,307 @@
+INFO  22:40:05,603 - Compiling source file: C:\Users\Janko\OneDrive\Desktop\MJCompilerProject\workspace\MJCompiler\test\program.mj
+INFO  22:40:05,632 - #2 program
+INFO  22:40:05,632 - #40 test301
+INFO  22:40:05,632 - #40 int
+INFO  22:40:05,633 - #40 a
+INFO  22:40:05,633 - #8 ;
+INFO  22:40:05,633 - #40 int
+INFO  22:40:05,634 - #40 b
+INFO  22:40:05,634 - #8 ;
+INFO  22:40:05,634 - #40 int
+INFO  22:40:05,634 - #40 c
+INFO  22:40:05,634 - #8 ;
+INFO  22:40:05,635 - #40 bool
+INFO  22:40:05,635 - #40 f
+INFO  22:40:05,635 - #8 ;
+INFO  22:40:05,635 - #3 {
+INFO  22:40:05,635 - #11 void
+INFO  22:40:05,635 - #40 main
+INFO  22:40:05,635 - #5 (
+INFO  22:40:05,636 - #6 )
+INFO  22:40:05,636 - #3 {
+INFO  22:40:05,637 - #40 a
+INFO  22:40:05,640 - #14 =
+INFO  22:40:05,640 - #39 10
+INFO  22:40:05,641 - #8 ;
+INFO  22:40:05,642 - #40 a
+INFO  22:40:05,642 - #12 ++
+INFO  22:40:05,642 - #8 ;
+INFO  22:40:05,642 - #40 b
+INFO  22:40:05,642 - #14 =
+INFO  22:40:05,642 - #40 a
+INFO  22:40:05,642 - #8 ;
+INFO  22:40:05,642 - #40 a
+INFO  22:40:05,642 - #13 --
+INFO  22:40:05,642 - #8 ;
+INFO  22:40:05,643 - #40 c
+INFO  22:40:05,643 - #14 =
+INFO  22:40:05,643 - #40 a
+INFO  22:40:05,643 - #15 +
+INFO  22:40:05,643 - #40 b
+INFO  22:40:05,644 - #8 ;
+INFO  22:40:05,644 - #40 f
+INFO  22:40:05,644 - #14 =
+INFO  22:40:05,644 - #41 true
+INFO  22:40:05,644 - #8 ;
+INFO  22:40:05,644 - #24 if
+INFO  22:40:05,645 - #5 (
+INFO  22:40:05,645 - #40 f
+INFO  22:40:05,645 - #6 )
+INFO  22:40:05,645 - #3 {
+INFO  22:40:05,645 - #9 print
+INFO  22:40:05,645 - #5 (
+INFO  22:40:05,645 - #38 +
+INFO  22:40:05,645 - #6 )
+INFO  22:40:05,645 - #8 ;
+INFO  22:40:05,646 - #4 }
+INFO  22:40:05,646 - #25 else
+INFO  22:40:05,646 - #3 {
+INFO  22:40:05,646 - #9 print
+INFO  22:40:05,646 - #5 (
+INFO  22:40:05,646 - #38 -
+INFO  22:40:05,646 - #6 )
+INFO  22:40:05,646 - #8 ;
+INFO  22:40:05,646 - #4 }
+INFO  22:40:05,646 - #9 print
+INFO  22:40:05,647 - #5 (
+INFO  22:40:05,647 - #40 c
+INFO  22:40:05,647 - #6 )
+INFO  22:40:05,647 - #8 ;
+INFO  22:40:05,647 - #4 }
+INFO  22:40:05,647 - #4 }
+INFO  22:40:05,658 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ItemDeclarations(
+    ItemDeclarations(
+      ItemDeclarations(
+        ItemDeclarations(
+          NoItemDecl(
+          ) [NoItemDecl]
+          VarSingle(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [VarDecl]
+          ) [VarSingle]
+        ) [ItemDeclarations]
+        VarSingle(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+           b
+          ) [VarDecl]
+        ) [VarSingle]
+      ) [ItemDeclarations]
+      VarSingle(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         c
+        ) [VarDecl]
+      ) [VarSingle]
+    ) [ItemDeclarations]
+    VarSingle(
+      VarDecl(
+        Type(
+         bool
+        ) [Type]
+       f
+      ) [VarDecl]
+    ) [VarSingle]
+  ) [ItemDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoItemDecl(
+      ) [NoItemDecl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      NoStmt(
+                      ) [NoStmt]
+                      DesStatement(
+                        AssignDesign(
+                          SingleDesignator(
+                           a
+                          ) [SingleDesignator]
+                          ExprS(
+                            Positive(
+                            ) [Positive]
+                            TermS(
+                              NumFactor(
+                               10
+                              ) [NumFactor]
+                            ) [TermS]
+                          ) [ExprS]
+                        ) [AssignDesign]
+                      ) [DesStatement]
+                    ) [Statements]
+                    DesStatement(
+                      DesignatorINC(
+                        SingleDesignator(
+                         a
+                        ) [SingleDesignator]
+                      ) [DesignatorINC]
+                    ) [DesStatement]
+                  ) [Statements]
+                  DesStatement(
+                    AssignDesign(
+                      SingleDesignator(
+                       b
+                      ) [SingleDesignator]
+                      ExprS(
+                        Positive(
+                        ) [Positive]
+                        TermS(
+                          DesignFactor(
+                            SingleDesignator(
+                             a
+                            ) [SingleDesignator]
+                          ) [DesignFactor]
+                        ) [TermS]
+                      ) [ExprS]
+                    ) [AssignDesign]
+                  ) [DesStatement]
+                ) [Statements]
+                DesStatement(
+                  DesignatorDEC(
+                    SingleDesignator(
+                     a
+                    ) [SingleDesignator]
+                  ) [DesignatorDEC]
+                ) [DesStatement]
+              ) [Statements]
+              DesStatement(
+                AssignDesign(
+                  SingleDesignator(
+                   c
+                  ) [SingleDesignator]
+                  ExprC(
+                    ExprS(
+                      Positive(
+                      ) [Positive]
+                      TermS(
+                        DesignFactor(
+                          SingleDesignator(
+                           a
+                          ) [SingleDesignator]
+                        ) [DesignFactor]
+                      ) [TermS]
+                    ) [ExprS]
+                    PlusOperator(
+                    ) [PlusOperator]
+                    TermS(
+                      DesignFactor(
+                        SingleDesignator(
+                         b
+                        ) [SingleDesignator]
+                      ) [DesignFactor]
+                    ) [TermS]
+                  ) [ExprC]
+                ) [AssignDesign]
+              ) [DesStatement]
+            ) [Statements]
+            DesStatement(
+              AssignDesign(
+                SingleDesignator(
+                 f
+                ) [SingleDesignator]
+                ExprS(
+                  Positive(
+                  ) [Positive]
+                  TermS(
+                    BoolFactor(
+                     true
+                    ) [BoolFactor]
+                  ) [TermS]
+                ) [ExprS]
+              ) [AssignDesign]
+            ) [DesStatement]
+          ) [Statements]
+          MatchedStatement(
+            OneCond(
+              OneCondTerm(
+                OneCondFact(
+                  ExprS(
+                    Positive(
+                    ) [Positive]
+                    TermS(
+                      DesignFactor(
+                        SingleDesignator(
+                         f
+                        ) [SingleDesignator]
+                      ) [DesignFactor]
+                    ) [TermS]
+                  ) [ExprS]
+                ) [OneCondFact]
+              ) [OneCondTerm]
+            ) [OneCond]
+            PrintStatementNoArg(
+              ExprS(
+                Positive(
+                ) [Positive]
+                TermS(
+                  CharFactor(
+                   +
+                  ) [CharFactor]
+                ) [TermS]
+              ) [ExprS]
+            ) [PrintStatementNoArg]
+            ElseStmt(
+              PrintStatementNoArg(
+                ExprS(
+                  Positive(
+                  ) [Positive]
+                  TermS(
+                    CharFactor(
+                     -
+                    ) [CharFactor]
+                  ) [TermS]
+                ) [ExprS]
+              ) [PrintStatementNoArg]
+            ) [ElseStmt]
+          ) [MatchedStatement]
+        ) [Statements]
+        PrintStatementNoArg(
+          ExprS(
+            Positive(
+            ) [Positive]
+            TermS(
+              DesignFactor(
+                SingleDesignator(
+                 c
+                ) [SingleDesignator]
+              ) [DesignFactor]
+            ) [TermS]
+          ) [ExprS]
+        ) [PrintStatementNoArg]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:40:05,659 - ===================================
+INFO  22:40:05,663 - Deklarisana promenljiva a tipa 1 na liniji 7
+INFO  22:40:05,663 - Deklarisana promenljiva b tipa 1 na liniji 8
+INFO  22:40:05,663 - Deklarisana promenljiva c tipa 1 na liniji 9
+INFO  22:40:05,663 - Deklarisana promenljiva f tipa 1 na liniji 10
+INFO  22:40:05,663 - Obradjuje se funkcija main na liniji 14
+INFO  22:40:05,664 -  Print count calls = 3
+INFO  22:40:05,664 -  Deklarisanih promenljivih ima = 4
+INFO  22:40:05,664 - ===================================

@@ -1,0 +1,172 @@
+INFO  19:21:21,471 - Compiling source file: C:\Users\Janko\OneDrive\Desktop\MJCompilerProject\workspace\MJCompiler\test\program.mj
+INFO  19:21:21,498 - #2 program
+INFO  19:21:21,498 - #40 test301
+INFO  19:21:21,499 - #40 int
+INFO  19:21:21,499 - #40 a
+INFO  19:21:21,500 - #8 ;
+INFO  19:21:21,500 - #40 int
+INFO  19:21:21,501 - #40 b
+INFO  19:21:21,501 - #8 ;
+INFO  19:21:21,501 - #40 int
+INFO  19:21:21,501 - #40 c
+INFO  19:21:21,501 - #8 ;
+INFO  19:21:21,501 - #3 {
+INFO  19:21:21,501 - #11 void
+INFO  19:21:21,502 - #40 main
+INFO  19:21:21,502 - #5 (
+INFO  19:21:21,502 - #6 )
+INFO  19:21:21,503 - #3 {
+INFO  19:21:21,503 - #40 a
+INFO  19:21:21,503 - #14 =
+INFO  19:21:21,504 - #39 10
+INFO  19:21:21,504 - #8 ;
+INFO  19:21:21,505 - #40 b
+INFO  19:21:21,505 - #14 =
+INFO  19:21:21,505 - #40 a
+INFO  19:21:21,505 - #12 ++
+ERROR 19:21:21,505 - 
+Sintaksna greska na liniji 15
+INFO  19:21:21,505 - #8 ;
+INFO  19:21:21,505 - #40 c
+INFO  19:21:21,505 - #14 =
+INFO  19:21:21,506 - #40 a
+ERROR 19:21:21,506 - Izvrsen oporavak do ; u liniji 15
+INFO  19:21:21,506 - #15 +
+INFO  19:21:21,507 - #40 b
+INFO  19:21:21,507 - #8 ;
+INFO  19:21:21,507 - #9 print
+INFO  19:21:21,507 - #5 (
+INFO  19:21:21,508 - #40 b
+INFO  19:21:21,508 - #6 )
+INFO  19:21:21,508 - #8 ;
+INFO  19:21:21,508 - #4 }
+INFO  19:21:21,508 - #4 }
+INFO  19:21:21,523 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ItemDeclarations(
+    ItemDeclarations(
+      ItemDeclarations(
+        NoItemDecl(
+        ) [NoItemDecl]
+        VarSingle(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+           a
+          ) [VarDecl]
+        ) [VarSingle]
+      ) [ItemDeclarations]
+      VarSingle(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         b
+        ) [VarDecl]
+      ) [VarSingle]
+    ) [ItemDeclarations]
+    VarSingle(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+       c
+      ) [VarDecl]
+    ) [VarSingle]
+  ) [ItemDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoItemDecl(
+      ) [NoItemDecl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              DesStatement(
+                AssignDesign(
+                  SingleDesignator(
+                   a
+                  ) [SingleDesignator]
+                  ExprS(
+                    Positive(
+                    ) [Positive]
+                    TermS(
+                      NumFactor(
+                       10
+                      ) [NumFactor]
+                    ) [TermS]
+                  ) [ExprS]
+                ) [AssignDesign]
+              ) [DesStatement]
+            ) [Statements]
+            ErrorStmt(
+            ) [ErrorStmt]
+          ) [Statements]
+          DesStatement(
+            AssignDesign(
+              SingleDesignator(
+               c
+              ) [SingleDesignator]
+              ExprC(
+                ExprS(
+                  Positive(
+                  ) [Positive]
+                  TermS(
+                    DesignFactor(
+                      SingleDesignator(
+                       a
+                      ) [SingleDesignator]
+                    ) [DesignFactor]
+                  ) [TermS]
+                ) [ExprS]
+                PlusOperator(
+                ) [PlusOperator]
+                TermS(
+                  DesignFactor(
+                    SingleDesignator(
+                     b
+                    ) [SingleDesignator]
+                  ) [DesignFactor]
+                ) [TermS]
+              ) [ExprC]
+            ) [AssignDesign]
+          ) [DesStatement]
+        ) [Statements]
+        PrintStatementNoArg(
+          ExprS(
+            Positive(
+            ) [Positive]
+            TermS(
+              DesignFactor(
+                SingleDesignator(
+                 b
+                ) [SingleDesignator]
+              ) [DesignFactor]
+            ) [TermS]
+          ) [ExprS]
+        ) [PrintStatementNoArg]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:21:21,525 - ===================================
+INFO  19:21:21,527 - Deklarisana promenljiva a tipa 1 na liniji 7
+INFO  19:21:21,527 - Deklarisana promenljiva b tipa 1 na liniji 8
+INFO  19:21:21,527 - Deklarisana promenljiva c tipa 1 na liniji 9
+INFO  19:21:21,528 - Obradjuje se funkcija main na liniji 13
+INFO  19:21:21,528 -  Print count calls = 1
+INFO  19:21:21,528 -  Deklarisanih promenljivih ima = 3
+INFO  19:21:21,528 - ===================================
+INFO  19:21:21,533 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,85 @@
+INFO  14:00:20,679 - Compiling source file: C:\Users\Janko\OneDrive\Desktop\MJCompilerProject\workspace\MJCompiler\test\program.mj
+INFO  14:00:20,708 - #2 program
+INFO  14:00:20,708 - #40 test301
+INFO  14:00:20,708 - #3 {
+INFO  14:00:20,709 - #11 void
+INFO  14:00:20,709 - #40 main
+INFO  14:00:20,709 - #5 (
+INFO  14:00:20,710 - #6 )
+INFO  14:00:20,710 - #40 int
+INFO  14:00:20,710 - #40 bodovi
+INFO  14:00:20,711 - #8 ;
+INFO  14:00:20,711 - #40 char
+INFO  14:00:20,712 - #40 bodovi2
+INFO  14:00:20,712 - #8 ;
+INFO  14:00:20,712 - #3 {
+INFO  14:00:20,712 - #9 print
+INFO  14:00:20,713 - #5 (
+INFO  14:00:20,713 - #39 1
+INFO  14:00:20,713 - #6 )
+INFO  14:00:20,714 - #8 ;
+INFO  14:00:20,714 - #4 }
+INFO  14:00:20,714 - #4 }
+INFO  14:00:20,745 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoItemDecl(
+  ) [NoItemDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      ItemDeclarations(
+        ItemDeclarations(
+          NoItemDecl(
+          ) [NoItemDecl]
+          VarSingle(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+             bodovi
+            ) [VarDecl]
+          ) [VarSingle]
+        ) [ItemDeclarations]
+        VarSingle(
+          VarDecl(
+            Type(
+             char
+            ) [Type]
+           bodovi2
+          ) [VarDecl]
+        ) [VarSingle]
+      ) [ItemDeclarations]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        PrintStatementNoArg(
+          ExprS(
+            Positive(
+            ) [Positive]
+            TermS(
+              NumFactor(
+               1
+              ) [NumFactor]
+            ) [TermS]
+          ) [ExprS]
+        ) [PrintStatementNoArg]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  14:00:20,745 - ===================================
+INFO  14:00:20,747 - Obradjuje se funkcija main na liniji 6
+INFO  14:00:20,747 - Deklarisana promenljiva bodovi tipa 1 na liniji 7
+INFO  14:00:20,747 - Deklarisana promenljiva bodovi2 tipa 1 na liniji 8
+INFO  14:00:20,747 -  Print count calls = 1
+INFO  14:00:20,747 -  Deklarisanih promenljivih ima = 2
+INFO  14:00:20,747 - ===================================
+INFO  14:00:20,755 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,57 @@
+INFO  14:02:06,934 - Compiling source file: C:\Users\Janko\OneDrive\Desktop\MJCompilerProject\workspace\MJCompiler\test\program.mj
+INFO  14:02:07,027 - #2 program
+INFO  14:02:07,027 - #40 test301
+INFO  14:02:07,027 - #3 {
+INFO  14:02:07,030 - #11 void
+INFO  14:02:07,033 - #40 main
+INFO  14:02:07,033 - #5 (
+INFO  14:02:07,033 - #6 )
+INFO  14:02:07,035 - #3 {
+INFO  14:02:07,035 - #9 print
+INFO  14:02:07,037 - #5 (
+INFO  14:02:07,037 - #39 1
+INFO  14:02:07,039 - #6 )
+INFO  14:02:07,039 - #8 ;
+INFO  14:02:07,039 - #4 }
+INFO  14:02:07,039 - #4 }
+INFO  14:02:07,052 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoItemDecl(
+  ) [NoItemDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoItemDecl(
+      ) [NoItemDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        PrintStatementNoArg(
+          ExprS(
+            Positive(
+            ) [Positive]
+            TermS(
+              NumFactor(
+               1
+              ) [NumFactor]
+            ) [TermS]
+          ) [ExprS]
+        ) [PrintStatementNoArg]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  14:02:07,055 - ===================================
+INFO  14:02:07,057 - Obradjuje se funkcija main na liniji 5
+INFO  14:02:07,057 -  Print count calls = 1
+INFO  14:02:07,057 -  Deklarisanih promenljivih ima = 0
+INFO  14:02:07,057 - ===================================
+INFO  14:02:07,064 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,190 @@
+INFO  17:43:13,811 - Compiling source file: C:\Users\Janko\OneDrive\Desktop\MJCompilerProject\workspace\MJCompiler\test\program.mj
+INFO  17:43:13,855 - #2 program
+INFO  17:43:13,856 - #40 test301
+INFO  17:43:13,856 - #29 const
+INFO  17:43:13,857 - #40 int
+INFO  17:43:13,857 - #40 nula
+INFO  17:43:13,858 - #14 =
+INFO  17:43:13,858 - #39 0
+INFO  17:43:13,858 - #8 ;
+INFO  17:43:13,858 - #29 const
+INFO  17:43:13,859 - #40 int
+INFO  17:43:13,859 - #40 jedan
+INFO  17:43:13,859 - #14 =
+INFO  17:43:13,859 - #39 1
+INFO  17:43:13,859 - #8 ;
+INFO  17:43:13,860 - #29 const
+INFO  17:43:13,860 - #40 int
+INFO  17:43:13,860 - #40 pet
+INFO  17:43:13,860 - #14 =
+INFO  17:43:13,860 - #39 5
+INFO  17:43:13,860 - #8 ;
+INFO  17:43:13,860 - #40 int
+INFO  17:43:13,861 - #40 niz
+INFO  17:43:13,861 - #18 [
+INFO  17:43:13,861 - #19 ]
+INFO  17:43:13,861 - #8 ;
+INFO  17:43:13,861 - #40 char
+INFO  17:43:13,861 - #40 nizch
+INFO  17:43:13,861 - #18 [
+INFO  17:43:13,861 - #19 ]
+INFO  17:43:13,861 - #8 ;
+INFO  17:43:13,861 - #3 {
+INFO  17:43:13,862 - #11 void
+INFO  17:43:13,862 - #40 main
+INFO  17:43:13,862 - #5 (
+INFO  17:43:13,863 - #6 )
+INFO  17:43:13,864 - #40 int
+INFO  17:43:13,864 - #40 bodovi
+INFO  17:43:13,864 - #8 ;
+INFO  17:43:13,864 - #40 int
+INFO  17:43:13,865 - #40 bodovi2
+INFO  17:43:13,866 - #8 ;
+INFO  17:43:13,866 - #40 char
+INFO  17:43:13,866 - #40 bodovi3
+INFO  17:43:13,866 - #8 ;
+INFO  17:43:13,866 - #40 bool
+INFO  17:43:13,866 - #40 bt
+INFO  17:43:13,866 - #8 ;
+INFO  17:43:13,866 - #3 {
+INFO  17:43:13,867 - #4 }
+INFO  17:43:13,867 - #4 }
+INFO  17:43:13,877 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ItemDeclarations(
+    ItemDeclarations(
+      ItemDeclarations(
+        ItemDeclarations(
+          ItemDeclarations(
+            NoItemDecl(
+            ) [NoItemDecl]
+            Constant(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                OneConst(
+                  SingleNumConst(
+                   nula
+                   0
+                  ) [SingleNumConst]
+                ) [OneConst]
+              ) [ConstDecl]
+            ) [Constant]
+          ) [ItemDeclarations]
+          Constant(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              OneConst(
+                SingleNumConst(
+                 jedan
+                 1
+                ) [SingleNumConst]
+              ) [OneConst]
+            ) [ConstDecl]
+          ) [Constant]
+        ) [ItemDeclarations]
+        Constant(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            OneConst(
+              SingleNumConst(
+               pet
+               5
+              ) [SingleNumConst]
+            ) [OneConst]
+          ) [ConstDecl]
+        ) [Constant]
+      ) [ItemDeclarations]
+      VarArr(
+        ArrayDecl(
+          Type(
+           int
+          ) [Type]
+         niz
+        ) [ArrayDecl]
+      ) [VarArr]
+    ) [ItemDeclarations]
+    VarArr(
+      ArrayDecl(
+        Type(
+         char
+        ) [Type]
+       nizch
+      ) [ArrayDecl]
+    ) [VarArr]
+  ) [ItemDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      ItemDeclarations(
+        ItemDeclarations(
+          ItemDeclarations(
+            ItemDeclarations(
+              NoItemDecl(
+              ) [NoItemDecl]
+              VarSingle(
+                VarDecl(
+                  Type(
+                   int
+                  ) [Type]
+                 bodovi
+                ) [VarDecl]
+              ) [VarSingle]
+            ) [ItemDeclarations]
+            VarSingle(
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+               bodovi2
+              ) [VarDecl]
+            ) [VarSingle]
+          ) [ItemDeclarations]
+          VarSingle(
+            VarDecl(
+              Type(
+               char
+              ) [Type]
+             bodovi3
+            ) [VarDecl]
+          ) [VarSingle]
+        ) [ItemDeclarations]
+        VarSingle(
+          VarDecl(
+            Type(
+             bool
+            ) [Type]
+           bt
+          ) [VarDecl]
+        ) [VarSingle]
+      ) [ItemDeclarations]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:43:13,877 - ===================================
+INFO  17:43:13,882 - Deklarisana promenljiva niza niz na liniji 9
+INFO  17:43:13,882 - Deklarisana promenljiva niza nizch na liniji 10
+INFO  17:43:13,883 - Obradjuje se funkcija main na liniji 13
+INFO  17:43:13,883 - Deklarisana promenljiva bodovi tipa 1 na liniji 14
+INFO  17:43:13,883 - Deklarisana promenljiva bodovi2 tipa 1 na liniji 15
+INFO  17:43:13,883 - Deklarisana promenljiva bodovi3 tipa 2 na liniji 16
+INFO  17:43:13,883 - Deklarisana promenljiva bt tipa 5 na liniji 17
+INFO  17:43:13,884 -  Print count calls = 0
+INFO  17:43:13,884 -  Deklarisanih promenljivih ima = 6
+INFO  17:43:13,884 - ===================================
+INFO  17:43:13,885 - Parsiranje uspesno zavrseno! ZA TRECU FAZU

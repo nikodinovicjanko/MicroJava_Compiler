@@ -1,0 +1,273 @@
+INFO  01:52:46,921 - Compiling source file: C:\Users\Janko\OneDrive\Desktop\MJCompilerProject\workspace\MJCompiler\test\program.mj
+INFO  01:52:46,950 - #2 program
+INFO  01:52:46,951 - #40 test301
+INFO  01:52:46,951 - #40 int
+INFO  01:52:46,952 - #40 a
+INFO  01:52:46,952 - #8 ;
+INFO  01:52:46,952 - #40 int
+INFO  01:52:46,953 - #40 b
+INFO  01:52:46,953 - #8 ;
+INFO  01:52:46,953 - #40 int
+INFO  01:52:46,953 - #40 c
+INFO  01:52:46,953 - #8 ;
+INFO  01:52:46,953 - #40 bool
+INFO  01:52:46,953 - #40 f
+INFO  01:52:46,953 - #8 ;
+INFO  01:52:46,953 - #40 bool
+INFO  01:52:46,953 - #40 f2
+INFO  01:52:46,954 - #8 ;
+INFO  01:52:46,954 - #3 {
+INFO  01:52:46,954 - #11 void
+INFO  01:52:46,954 - #40 main
+INFO  01:52:46,954 - #5 (
+INFO  01:52:46,955 - #6 )
+INFO  01:52:46,955 - #3 {
+INFO  01:52:46,955 - #40 f
+INFO  01:52:46,956 - #14 =
+INFO  01:52:46,956 - #41 true
+INFO  01:52:46,957 - #8 ;
+INFO  01:52:46,957 - #40 f2
+INFO  01:52:46,957 - #14 =
+INFO  01:52:46,957 - #41 false
+INFO  01:52:46,957 - #8 ;
+INFO  01:52:46,957 - #40 b
+INFO  01:52:46,957 - #14 =
+INFO  01:52:46,958 - #39 4
+INFO  01:52:46,958 - #8 ;
+INFO  01:52:46,958 - #24 if
+INFO  01:52:46,958 - #5 (
+INFO  01:52:46,958 - #40 f
+INFO  01:52:46,958 - #30 &&
+INFO  01:52:46,958 - #40 f2
+INFO  01:52:46,958 - #6 )
+INFO  01:52:46,958 - #3 {
+INFO  01:52:46,959 - #9 print
+INFO  01:52:46,959 - #5 (
+INFO  01:52:46,959 - #40 a
+INFO  01:52:46,959 - #6 )
+INFO  01:52:46,959 - #8 ;
+INFO  01:52:46,959 - #4 }
+INFO  01:52:46,959 - #25 else
+INFO  01:52:46,959 - #3 {
+INFO  01:52:46,959 - #9 print
+INFO  01:52:46,960 - #5 (
+INFO  01:52:46,960 - #40 a
+INFO  01:52:46,960 - #15 +
+INFO  01:52:46,960 - #39 10
+INFO  01:52:46,961 - #6 )
+INFO  01:52:46,961 - #8 ;
+INFO  01:52:46,961 - #4 }
+INFO  01:52:46,961 - #4 }
+INFO  01:52:46,961 - #4 }
+INFO  01:52:46,972 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ItemDeclarations(
+    ItemDeclarations(
+      ItemDeclarations(
+        ItemDeclarations(
+          ItemDeclarations(
+            NoItemDecl(
+            ) [NoItemDecl]
+            VarSingle(
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+               a
+              ) [VarDecl]
+            ) [VarSingle]
+          ) [ItemDeclarations]
+          VarSingle(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+             b
+            ) [VarDecl]
+          ) [VarSingle]
+        ) [ItemDeclarations]
+        VarSingle(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+           c
+          ) [VarDecl]
+        ) [VarSingle]
+      ) [ItemDeclarations]
+      VarSingle(
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+         f
+        ) [VarDecl]
+      ) [VarSingle]
+    ) [ItemDeclarations]
+    VarSingle(
+      VarDecl(
+        Type(
+         bool
+        ) [Type]
+       f2
+      ) [VarDecl]
+    ) [VarSingle]
+  ) [ItemDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoItemDecl(
+      ) [NoItemDecl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              DesStatement(
+                AssignDesign(
+                  SingleDesignator(
+                   f
+                  ) [SingleDesignator]
+                  ExprS(
+                    Positive(
+                    ) [Positive]
+                    TermS(
+                      BoolFactor(
+                       true
+                      ) [BoolFactor]
+                    ) [TermS]
+                  ) [ExprS]
+                ) [AssignDesign]
+              ) [DesStatement]
+            ) [Statements]
+            DesStatement(
+              AssignDesign(
+                SingleDesignator(
+                 f2
+                ) [SingleDesignator]
+                ExprS(
+                  Positive(
+                  ) [Positive]
+                  TermS(
+                    BoolFactor(
+                     false
+                    ) [BoolFactor]
+                  ) [TermS]
+                ) [ExprS]
+              ) [AssignDesign]
+            ) [DesStatement]
+          ) [Statements]
+          DesStatement(
+            AssignDesign(
+              SingleDesignator(
+               b
+              ) [SingleDesignator]
+              ExprS(
+                Positive(
+                ) [Positive]
+                TermS(
+                  NumFactor(
+                   4
+                  ) [NumFactor]
+                ) [TermS]
+              ) [ExprS]
+            ) [AssignDesign]
+          ) [DesStatement]
+        ) [Statements]
+        MatchedStatement(
+          OneCond(
+            ComplexCondTerm(
+              OneCondTerm(
+                OneCondFact(
+                  ExprS(
+                    Positive(
+                    ) [Positive]
+                    TermS(
+                      DesignFactor(
+                        SingleDesignator(
+                         f
+                        ) [SingleDesignator]
+                      ) [DesignFactor]
+                    ) [TermS]
+                  ) [ExprS]
+                ) [OneCondFact]
+              ) [OneCondTerm]
+              OneCondFact(
+                ExprS(
+                  Positive(
+                  ) [Positive]
+                  TermS(
+                    DesignFactor(
+                      SingleDesignator(
+                       f2
+                      ) [SingleDesignator]
+                    ) [DesignFactor]
+                  ) [TermS]
+                ) [ExprS]
+              ) [OneCondFact]
+            ) [ComplexCondTerm]
+          ) [OneCond]
+          PrintStatementNoArg(
+            ExprS(
+              Positive(
+              ) [Positive]
+              TermS(
+                DesignFactor(
+                  SingleDesignator(
+                   a
+                  ) [SingleDesignator]
+                ) [DesignFactor]
+              ) [TermS]
+            ) [ExprS]
+          ) [PrintStatementNoArg]
+          ElseStmt(
+            ElseTerminal(
+            ) [ElseTerminal]
+            PrintStatementNoArg(
+              ExprC(
+                ExprS(
+                  Positive(
+                  ) [Positive]
+                  TermS(
+                    DesignFactor(
+                      SingleDesignator(
+                       a
+                      ) [SingleDesignator]
+                    ) [DesignFactor]
+                  ) [TermS]
+                ) [ExprS]
+                PlusOperator(
+                ) [PlusOperator]
+                TermS(
+                  NumFactor(
+                   10
+                  ) [NumFactor]
+                ) [TermS]
+              ) [ExprC]
+            ) [PrintStatementNoArg]
+          ) [ElseStmt]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  01:52:46,973 - ===================================
+INFO  01:52:46,975 - Deklarisana promenljiva a tipa 1 na liniji 7
+INFO  01:52:46,975 - Deklarisana promenljiva b tipa 1 na liniji 8
+INFO  01:52:46,976 - Deklarisana promenljiva c tipa 1 na liniji 9
+INFO  01:52:46,976 - Deklarisana promenljiva f tipa 1 na liniji 10
+INFO  01:52:46,976 - Deklarisana promenljiva f2 tipa 1 na liniji 11
+INFO  01:52:46,980 - Obradjuje se funkcija main na liniji 15
+INFO  01:52:46,981 -  Print count calls = 2
+INFO  01:52:46,981 -  Deklarisanih promenljivih ima = 5
+INFO  01:52:46,981 - ===================================
+INFO  01:52:46,990 - Parsiranje uspesno zavrseno!

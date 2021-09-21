@@ -1,0 +1,162 @@
+INFO  16:33:19,447 - Compiling source file: C:\Users\Janko\OneDrive\Desktop\MJCompilerProject\workspace\MJCompiler\test\program.mj
+INFO  16:33:19,497 - #2 program
+INFO  16:33:19,497 - #40 test301
+INFO  16:33:19,497 - #29 const
+INFO  16:33:19,500 - #40 int
+INFO  16:33:19,500 - #40 nula
+INFO  16:33:19,501 - #14 =
+INFO  16:33:19,501 - #39 0
+INFO  16:33:19,501 - #8 ;
+INFO  16:33:19,501 - #29 const
+INFO  16:33:19,502 - #40 int
+INFO  16:33:19,502 - #40 jedan
+INFO  16:33:19,503 - #14 =
+INFO  16:33:19,503 - #39 1
+INFO  16:33:19,503 - #8 ;
+INFO  16:33:19,503 - #29 const
+INFO  16:33:19,503 - #40 int
+INFO  16:33:19,503 - #40 pet
+INFO  16:33:19,504 - #14 =
+INFO  16:33:19,504 - #39 5
+INFO  16:33:19,504 - #8 ;
+INFO  16:33:19,504 - #40 int
+INFO  16:33:19,504 - #40 niz
+INFO  16:33:19,504 - #18 [
+INFO  16:33:19,505 - #19 ]
+INFO  16:33:19,505 - #8 ;
+INFO  16:33:19,505 - #40 char
+INFO  16:33:19,505 - #40 nizch
+INFO  16:33:19,505 - #18 [
+INFO  16:33:19,505 - #19 ]
+INFO  16:33:19,505 - #8 ;
+INFO  16:33:19,505 - #3 {
+INFO  16:33:19,505 - #11 void
+INFO  16:33:19,506 - #40 main
+INFO  16:33:19,506 - #5 (
+INFO  16:33:19,507 - #6 )
+INFO  16:33:19,507 - #40 int
+INFO  16:33:19,507 - #40 bodovi
+INFO  16:33:19,508 - #8 ;
+INFO  16:33:19,508 - #40 bool
+INFO  16:33:19,509 - #40 bt
+INFO  16:33:19,509 - #8 ;
+INFO  16:33:19,509 - #3 {
+INFO  16:33:19,509 - #4 }
+INFO  16:33:19,510 - #4 }
+INFO  16:33:19,523 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ItemDeclarations(
+    ItemDeclarations(
+      ItemDeclarations(
+        ItemDeclarations(
+          ItemDeclarations(
+            NoItemDecl(
+            ) [NoItemDecl]
+            Constant(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                OneConst(
+                  SingleNumConst(
+                   nula
+                   0
+                  ) [SingleNumConst]
+                ) [OneConst]
+              ) [ConstDecl]
+            ) [Constant]
+          ) [ItemDeclarations]
+          Constant(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              OneConst(
+                SingleNumConst(
+                 jedan
+                 1
+                ) [SingleNumConst]
+              ) [OneConst]
+            ) [ConstDecl]
+          ) [Constant]
+        ) [ItemDeclarations]
+        Constant(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            OneConst(
+              SingleNumConst(
+               pet
+               5
+              ) [SingleNumConst]
+            ) [OneConst]
+          ) [ConstDecl]
+        ) [Constant]
+      ) [ItemDeclarations]
+      VarArr(
+        ArrayDecl(
+          Type(
+           int
+          ) [Type]
+         niz
+        ) [ArrayDecl]
+      ) [VarArr]
+    ) [ItemDeclarations]
+    VarArr(
+      ArrayDecl(
+        Type(
+         char
+        ) [Type]
+       nizch
+      ) [ArrayDecl]
+    ) [VarArr]
+  ) [ItemDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      ItemDeclarations(
+        ItemDeclarations(
+          NoItemDecl(
+          ) [NoItemDecl]
+          VarSingle(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+             bodovi
+            ) [VarDecl]
+          ) [VarSingle]
+        ) [ItemDeclarations]
+        VarSingle(
+          VarDecl(
+            Type(
+             bool
+            ) [Type]
+           bt
+          ) [VarDecl]
+        ) [VarSingle]
+      ) [ItemDeclarations]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:33:19,523 - ===================================
+INFO  16:33:19,528 - Deklarisana promenljiva niza niz na liniji 9
+INFO  16:33:19,528 - Deklarisana promenljiva niza nizch na liniji 10
+INFO  16:33:19,528 - Obradjuje se funkcija main na liniji 13
+INFO  16:33:19,528 - Deklarisana promenljiva bodovi tipa rs.etf.pp1.symboltable.concepts.Struct@5e9f23b4 na liniji 14
+INFO  16:33:19,528 - Deklarisana promenljiva bt tipa rs.etf.pp1.symboltable.concepts.Struct@4783da3f na liniji 15
+INFO  16:33:19,529 -  Print count calls = 0
+INFO  16:33:19,529 -  Deklarisanih promenljivih ima = 4
+INFO  16:33:19,529 - ===================================
+INFO  16:33:19,530 - Parsiranje uspesno zavrseno! ZA TRECU FAZU

@@ -1,0 +1,87 @@
+INFO  15:10:47,192 - Compiling source file: C:\Users\Janko\OneDrive\Desktop\MJCompilerProject\workspace\MJCompiler\test\program.mj
+INFO  15:10:47,232 - #2 program
+INFO  15:10:47,233 - #40 test301
+INFO  15:10:47,233 - #40 int
+INFO  15:10:47,234 - #40 a
+INFO  15:10:47,234 - #8 ;
+INFO  15:10:47,234 - #3 {
+INFO  15:10:47,235 - #11 void
+INFO  15:10:47,236 - #40 main
+INFO  15:10:47,236 - #5 (
+INFO  15:10:47,237 - #6 )
+INFO  15:10:47,237 - #40 int
+INFO  15:10:47,237 - #40 b
+INFO  15:10:47,237 - #8 ;
+INFO  15:10:47,237 - #3 {
+INFO  15:10:47,238 - #9 print
+INFO  15:10:47,238 - #5 (
+INFO  15:10:47,238 - #40 a
+INFO  15:10:47,239 - #6 )
+INFO  15:10:47,240 - #8 ;
+INFO  15:10:47,240 - #4 }
+INFO  15:10:47,240 - #4 }
+INFO  15:10:47,251 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ItemDeclarations(
+    NoItemDecl(
+    ) [NoItemDecl]
+    VarSingle(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+       a
+      ) [VarDecl]
+    ) [VarSingle]
+  ) [ItemDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      ItemDeclarations(
+        NoItemDecl(
+        ) [NoItemDecl]
+        VarSingle(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+           b
+          ) [VarDecl]
+        ) [VarSingle]
+      ) [ItemDeclarations]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        PrintStatementNoArg(
+          ExprS(
+            Positive(
+            ) [Positive]
+            TermS(
+              DesignFactor(
+                SingleDesignator(
+                 a
+                ) [SingleDesignator]
+              ) [DesignFactor]
+            ) [TermS]
+          ) [ExprS]
+        ) [PrintStatementNoArg]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:10:47,251 - ===================================
+INFO  15:10:47,253 - Deklarisana promenljiva a tipa 1 na liniji 4
+INFO  15:10:47,253 - Obradjuje se funkcija main na liniji 6
+INFO  15:10:47,254 - Deklarisana promenljiva b tipa 1 na liniji 7
+INFO  15:10:47,254 -  Print count calls = 1
+INFO  15:10:47,254 -  Deklarisanih promenljivih ima = 2
+INFO  15:10:47,254 - ===================================
+INFO  15:10:47,262 - Parsiranje uspesno zavrseno!

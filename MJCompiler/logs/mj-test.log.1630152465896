@@ -1,0 +1,162 @@
+INFO  14:06:50,463 - Compiling source file: C:\Users\Janko\OneDrive\Desktop\MJCompilerProject\workspace\MJCompiler\test\program.mj
+INFO  14:06:50,492 - #2 program
+INFO  14:06:50,492 - #40 test301
+INFO  14:06:50,492 - #29 const
+INFO  14:06:50,493 - #40 int
+INFO  14:06:50,493 - #40 nula
+INFO  14:06:50,494 - #14 =
+INFO  14:06:50,494 - #39 0
+INFO  14:06:50,494 - #8 ;
+INFO  14:06:50,494 - #29 const
+INFO  14:06:50,495 - #40 int
+INFO  14:06:50,495 - #40 jedan
+INFO  14:06:50,495 - #14 =
+INFO  14:06:50,495 - #39 1
+INFO  14:06:50,495 - #8 ;
+INFO  14:06:50,495 - #29 const
+INFO  14:06:50,495 - #40 int
+INFO  14:06:50,495 - #40 pet
+INFO  14:06:50,495 - #14 =
+INFO  14:06:50,495 - #39 5
+INFO  14:06:50,495 - #8 ;
+INFO  14:06:50,495 - #40 int
+INFO  14:06:50,498 - #40 niz
+INFO  14:06:50,498 - #18 [
+INFO  14:06:50,498 - #19 ]
+INFO  14:06:50,498 - #8 ;
+INFO  14:06:50,498 - #40 char
+INFO  14:06:50,498 - #40 nizch
+INFO  14:06:50,498 - #18 [
+INFO  14:06:50,498 - #19 ]
+INFO  14:06:50,498 - #8 ;
+INFO  14:06:50,498 - #3 {
+INFO  14:06:50,499 - #11 void
+INFO  14:06:50,499 - #40 main
+INFO  14:06:50,499 - #5 (
+INFO  14:06:50,500 - #6 )
+INFO  14:06:50,500 - #40 int
+INFO  14:06:50,500 - #40 bodovi
+INFO  14:06:50,500 - #8 ;
+INFO  14:06:50,500 - #40 bool
+INFO  14:06:50,501 - #40 bt
+INFO  14:06:50,501 - #8 ;
+INFO  14:06:50,501 - #3 {
+INFO  14:06:50,501 - #4 }
+INFO  14:06:50,501 - #4 }
+INFO  14:06:50,507 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ItemDeclarations(
+    ItemDeclarations(
+      ItemDeclarations(
+        ItemDeclarations(
+          ItemDeclarations(
+            NoItemDecl(
+            ) [NoItemDecl]
+            Constant(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                OneConst(
+                  SingleNumConst(
+                   nula
+                   0
+                  ) [SingleNumConst]
+                ) [OneConst]
+              ) [ConstDecl]
+            ) [Constant]
+          ) [ItemDeclarations]
+          Constant(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              OneConst(
+                SingleNumConst(
+                 jedan
+                 1
+                ) [SingleNumConst]
+              ) [OneConst]
+            ) [ConstDecl]
+          ) [Constant]
+        ) [ItemDeclarations]
+        Constant(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            OneConst(
+              SingleNumConst(
+               pet
+               5
+              ) [SingleNumConst]
+            ) [OneConst]
+          ) [ConstDecl]
+        ) [Constant]
+      ) [ItemDeclarations]
+      VarArr(
+        ArrayDecl(
+          Type(
+           int
+          ) [Type]
+         niz
+        ) [ArrayDecl]
+      ) [VarArr]
+    ) [ItemDeclarations]
+    VarArr(
+      ArrayDecl(
+        Type(
+         char
+        ) [Type]
+       nizch
+      ) [ArrayDecl]
+    ) [VarArr]
+  ) [ItemDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      ItemDeclarations(
+        ItemDeclarations(
+          NoItemDecl(
+          ) [NoItemDecl]
+          VarSingle(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+             bodovi
+            ) [VarDecl]
+          ) [VarSingle]
+        ) [ItemDeclarations]
+        VarSingle(
+          VarDecl(
+            Type(
+             bool
+            ) [Type]
+           bt
+          ) [VarDecl]
+        ) [VarSingle]
+      ) [ItemDeclarations]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  14:06:50,507 - ===================================
+INFO  14:06:50,509 - Deklarisana promenljiva niza niz na liniji 9
+INFO  14:06:50,509 - Deklarisana promenljiva niza nizch na liniji 10
+INFO  14:06:50,509 - Obradjuje se funkcija main na liniji 13
+INFO  14:06:50,510 - Deklarisana promenljiva bodovi na liniji 14
+INFO  14:06:50,510 - Deklarisana promenljiva bt na liniji 15
+INFO  14:06:50,510 -  Print count calls = 0
+INFO  14:06:50,510 -  Deklarisanih promenljivih ima = 4
+INFO  14:06:50,510 - ===================================
+INFO  14:06:50,511 - Parsiranje uspesno zavrseno! ZA TRECU FAZU

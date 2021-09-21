@@ -1,0 +1,96 @@
+INFO  18:19:30,484 - Compiling source file: C:\Users\Janko\OneDrive\Desktop\MJCompilerProject\workspace\MJCompiler\test\program.mj
+INFO  18:19:30,514 - #2 program
+INFO  18:19:30,514 - #40 MJProgram
+INFO  18:19:30,514 - #40 int
+INFO  18:19:30,515 - #40 x
+INFO  18:19:30,515 - #8 ;
+INFO  18:19:30,515 - #40 int
+INFO  18:19:30,516 - #40 y
+INFO  18:19:30,516 - #8 ;
+INFO  18:19:30,516 - #40 int
+INFO  18:19:30,516 - #40 a
+INFO  18:19:30,516 - #18 [
+INFO  18:19:30,516 - #19 ]
+INFO  18:19:30,516 - #8 ;
+INFO  18:19:30,517 - #29 const
+INFO  18:19:30,517 - #40 int
+INFO  18:19:30,517 - #40 c
+INFO  18:19:30,517 - #14 =
+INFO  18:19:30,517 - #39 12
+INFO  18:19:30,517 - #8 ;
+INFO  18:19:30,518 - #3 {
+INFO  18:19:30,518 - #11 void
+INFO  18:19:30,521 - #40 main
+INFO  18:19:30,521 - #5 (
+INFO  18:19:30,522 - #6 )
+INFO  18:19:30,522 - #3 {
+INFO  18:19:30,523 - #4 }
+INFO  18:19:30,523 - #4 }
+INFO  18:19:30,524 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ItemDeclarations(
+    ItemDeclarations(
+      ItemDeclarations(
+        ItemDeclarations(
+          NoItemDecl(
+          ) [NoItemDecl]
+          VarSingle(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+             x
+            ) [VarDecl]
+          ) [VarSingle]
+        ) [ItemDeclarations]
+        VarSingle(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+           y
+          ) [VarDecl]
+        ) [VarSingle]
+      ) [ItemDeclarations]
+      VarArr(
+        ArrayDecl(
+          Type(
+           int
+          ) [Type]
+         a
+        ) [ArrayDecl]
+      ) [VarArr]
+    ) [ItemDeclarations]
+    Constant(
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        OneConst(
+          SingleNumConst(
+           c
+           12
+          ) [SingleNumConst]
+        ) [OneConst]
+      ) [ConstDecl]
+    ) [Constant]
+  ) [ItemDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoItemDecl(
+      ) [NoItemDecl]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:19:30,525 - ===================================

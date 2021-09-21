@@ -1,0 +1,109 @@
+INFO  15:21:39,751 - Compiling source file: C:\Users\Janko\OneDrive\Desktop\MJCompilerProject\workspace\MJCompiler\test\program.mj
+INFO  15:21:39,788 - #2 program
+INFO  15:21:39,788 - #40 test301
+INFO  15:21:39,789 - #40 int
+INFO  15:21:39,790 - #40 a
+INFO  15:21:39,791 - #8 ;
+INFO  15:21:39,791 - #3 {
+INFO  15:21:39,792 - #11 void
+INFO  15:21:39,792 - #40 main
+INFO  15:21:39,793 - #5 (
+INFO  15:21:39,793 - #6 )
+INFO  15:21:39,794 - #40 int
+INFO  15:21:39,794 - #40 b
+INFO  15:21:39,794 - #8 ;
+INFO  15:21:39,794 - #3 {
+INFO  15:21:39,794 - #40 b
+INFO  15:21:39,795 - #14 =
+INFO  15:21:39,795 - #39 10
+INFO  15:21:39,796 - #8 ;
+INFO  15:21:39,796 - #9 print
+INFO  15:21:39,797 - #5 (
+INFO  15:21:39,797 - #40 b
+INFO  15:21:39,801 - #6 )
+INFO  15:21:39,801 - #8 ;
+INFO  15:21:39,801 - #4 }
+INFO  15:21:39,801 - #4 }
+INFO  15:21:39,812 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ItemDeclarations(
+    NoItemDecl(
+    ) [NoItemDecl]
+    VarSingle(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+       a
+      ) [VarDecl]
+    ) [VarSingle]
+  ) [ItemDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      ItemDeclarations(
+        NoItemDecl(
+        ) [NoItemDecl]
+        VarSingle(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+           b
+          ) [VarDecl]
+        ) [VarSingle]
+      ) [ItemDeclarations]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          DesStatement(
+            AssignDesign(
+              SingleDesignator(
+               b
+              ) [SingleDesignator]
+              ExprS(
+                Positive(
+                ) [Positive]
+                TermS(
+                  NumFactor(
+                   10
+                  ) [NumFactor]
+                ) [TermS]
+              ) [ExprS]
+            ) [AssignDesign]
+          ) [DesStatement]
+        ) [Statements]
+        PrintStatementNoArg(
+          ExprS(
+            Positive(
+            ) [Positive]
+            TermS(
+              DesignFactor(
+                SingleDesignator(
+                 b
+                ) [SingleDesignator]
+              ) [DesignFactor]
+            ) [TermS]
+          ) [ExprS]
+        ) [PrintStatementNoArg]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:21:39,814 - ===================================
+INFO  15:21:39,818 - Deklarisana promenljiva a tipa 1 na liniji 4
+INFO  15:21:39,818 - Obradjuje se funkcija main na liniji 6
+INFO  15:21:39,819 - Deklarisana promenljiva b tipa 1 na liniji 7
+INFO  15:21:39,820 -  Print count calls = 1
+INFO  15:21:39,820 -  Deklarisanih promenljivih ima = 2
+INFO  15:21:39,820 - ===================================
+INFO  15:21:39,832 - Parsiranje uspesno zavrseno!

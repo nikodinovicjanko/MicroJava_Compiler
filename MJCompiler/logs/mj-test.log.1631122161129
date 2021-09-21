@@ -1,0 +1,280 @@
+INFO  19:28:52,548 - Compiling source file: C:\Users\Janko\OneDrive\Desktop\MJCompilerProject\workspace\MJCompiler\test\program.mj
+INFO  19:28:52,575 - #2 program
+INFO  19:28:52,575 - #40 test301
+INFO  19:28:52,575 - #40 int
+INFO  19:28:52,576 - #40 a
+INFO  19:28:52,576 - #8 ;
+INFO  19:28:52,577 - #40 int
+INFO  19:28:52,577 - #40 b
+INFO  19:28:52,577 - #8 ;
+INFO  19:28:52,577 - #40 int
+INFO  19:28:52,577 - #40 c
+INFO  19:28:52,577 - #8 ;
+INFO  19:28:52,578 - #40 bool
+INFO  19:28:52,578 - #40 f
+INFO  19:28:52,578 - #8 ;
+INFO  19:28:52,578 - #3 {
+INFO  19:28:52,578 - #11 void
+INFO  19:28:52,578 - #40 main
+INFO  19:28:52,578 - #5 (
+INFO  19:28:52,579 - #6 )
+INFO  19:28:52,579 - #3 {
+INFO  19:28:52,579 - #40 f
+INFO  19:28:52,583 - #14 =
+INFO  19:28:52,583 - #41 true
+INFO  19:28:52,584 - #8 ;
+INFO  19:28:52,584 - #40 b
+INFO  19:28:52,585 - #14 =
+INFO  19:28:52,585 - #39 2
+INFO  19:28:52,585 - #8 ;
+INFO  19:28:52,585 - #24 if
+INFO  19:28:52,585 - #5 (
+INFO  19:28:52,585 - #40 f
+INFO  19:28:52,585 - #30 &&
+INFO  19:28:52,585 - #40 b
+INFO  19:28:52,585 - #30 &&
+INFO  19:28:52,585 - #40 a
+INFO  19:28:52,585 - #31 ||
+INFO  19:28:52,586 - #40 c
+INFO  19:28:52,586 - #6 )
+INFO  19:28:52,586 - #3 {
+INFO  19:28:52,586 - #9 print
+INFO  19:28:52,586 - #5 (
+INFO  19:28:52,586 - #40 a
+INFO  19:28:52,586 - #6 )
+INFO  19:28:52,586 - #8 ;
+INFO  19:28:52,586 - #4 }
+INFO  19:28:52,586 - #25 else
+INFO  19:28:52,586 - #3 {
+INFO  19:28:52,587 - #9 print
+INFO  19:28:52,587 - #5 (
+INFO  19:28:52,587 - #40 a
+INFO  19:28:52,587 - #15 +
+INFO  19:28:52,587 - #39 10
+INFO  19:28:52,588 - #6 )
+INFO  19:28:52,588 - #8 ;
+INFO  19:28:52,588 - #4 }
+INFO  19:28:52,588 - #4 }
+INFO  19:28:52,588 - #4 }
+INFO  19:28:52,599 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ItemDeclarations(
+    ItemDeclarations(
+      ItemDeclarations(
+        ItemDeclarations(
+          NoItemDecl(
+          ) [NoItemDecl]
+          VarSingle(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [VarDecl]
+          ) [VarSingle]
+        ) [ItemDeclarations]
+        VarSingle(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+           b
+          ) [VarDecl]
+        ) [VarSingle]
+      ) [ItemDeclarations]
+      VarSingle(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         c
+        ) [VarDecl]
+      ) [VarSingle]
+    ) [ItemDeclarations]
+    VarSingle(
+      VarDecl(
+        Type(
+         bool
+        ) [Type]
+       f
+      ) [VarDecl]
+    ) [VarSingle]
+  ) [ItemDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoItemDecl(
+      ) [NoItemDecl]
+      Statements(
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            DesStatement(
+              AssignDesign(
+                SingleDesignator(
+                 f
+                ) [SingleDesignator]
+                ExprS(
+                  Positive(
+                  ) [Positive]
+                  TermS(
+                    BoolFactor(
+                     true
+                    ) [BoolFactor]
+                  ) [TermS]
+                ) [ExprS]
+              ) [AssignDesign]
+            ) [DesStatement]
+          ) [Statements]
+          DesStatement(
+            AssignDesign(
+              SingleDesignator(
+               b
+              ) [SingleDesignator]
+              ExprS(
+                Positive(
+                ) [Positive]
+                TermS(
+                  NumFactor(
+                   2
+                  ) [NumFactor]
+                ) [TermS]
+              ) [ExprS]
+            ) [AssignDesign]
+          ) [DesStatement]
+        ) [Statements]
+        MatchedStatement(
+          ComplexCond(
+            OneCond(
+              ComplexCondTerm(
+                ComplexCondTerm(
+                  OneCondTerm(
+                    OneCondFact(
+                      ExprS(
+                        Positive(
+                        ) [Positive]
+                        TermS(
+                          DesignFactor(
+                            SingleDesignator(
+                             f
+                            ) [SingleDesignator]
+                          ) [DesignFactor]
+                        ) [TermS]
+                      ) [ExprS]
+                    ) [OneCondFact]
+                  ) [OneCondTerm]
+                  OneCondFact(
+                    ExprS(
+                      Positive(
+                      ) [Positive]
+                      TermS(
+                        DesignFactor(
+                          SingleDesignator(
+                           b
+                          ) [SingleDesignator]
+                        ) [DesignFactor]
+                      ) [TermS]
+                    ) [ExprS]
+                  ) [OneCondFact]
+                ) [ComplexCondTerm]
+                OneCondFact(
+                  ExprS(
+                    Positive(
+                    ) [Positive]
+                    TermS(
+                      DesignFactor(
+                        SingleDesignator(
+                         a
+                        ) [SingleDesignator]
+                      ) [DesignFactor]
+                    ) [TermS]
+                  ) [ExprS]
+                ) [OneCondFact]
+              ) [ComplexCondTerm]
+            ) [OneCond]
+            OneCondTerm(
+              OneCondFact(
+                ExprS(
+                  Positive(
+                  ) [Positive]
+                  TermS(
+                    DesignFactor(
+                      SingleDesignator(
+                       c
+                      ) [SingleDesignator]
+                    ) [DesignFactor]
+                  ) [TermS]
+                ) [ExprS]
+              ) [OneCondFact]
+            ) [OneCondTerm]
+          ) [ComplexCond]
+          PrintStatementNoArg(
+            ExprS(
+              Positive(
+              ) [Positive]
+              TermS(
+                DesignFactor(
+                  SingleDesignator(
+                   a
+                  ) [SingleDesignator]
+                ) [DesignFactor]
+              ) [TermS]
+            ) [ExprS]
+          ) [PrintStatementNoArg]
+          ElseStmt(
+            ElseTerminal(
+            ) [ElseTerminal]
+            PrintStatementNoArg(
+              ExprC(
+                ExprS(
+                  Positive(
+                  ) [Positive]
+                  TermS(
+                    DesignFactor(
+                      SingleDesignator(
+                       a
+                      ) [SingleDesignator]
+                    ) [DesignFactor]
+                  ) [TermS]
+                ) [ExprS]
+                PlusOperator(
+                ) [PlusOperator]
+                TermS(
+                  NumFactor(
+                   10
+                  ) [NumFactor]
+                ) [TermS]
+              ) [ExprC]
+            ) [PrintStatementNoArg]
+          ) [ElseStmt]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:28:52,600 - ===================================
+INFO  19:28:52,602 - Deklarisana promenljiva a tipa 1 na liniji 7
+INFO  19:28:52,602 - Deklarisana promenljiva b tipa 1 na liniji 8
+INFO  19:28:52,602 - Deklarisana promenljiva c tipa 1 na liniji 9
+INFO  19:28:52,602 - Deklarisana promenljiva f tipa 1 na liniji 10
+INFO  19:28:52,602 - Obradjuje se funkcija main na liniji 14
+ERROR 19:28:52,602 - Izraz u confact mora biti bool na liniji 7
+ERROR 19:28:52,602 - Tipovi uslova moraju biti bool tipa  na liniji 4
+ERROR 19:28:52,602 - Izraz u confact mora biti bool na liniji 12
+ERROR 19:28:52,602 - Tipovi uslova moraju biti bool tipa  na liniji 4
+ERROR 19:28:52,603 - Uslov u if naredbi mora biti bool tipa na liniji 4
+ERROR 19:28:52,603 - Izraz u confact mora biti bool na liniji 17
+ERROR 19:28:52,603 - Izraz u if uslovu mora biti bool tipa na liniji 4
+INFO  19:28:52,603 -  Print count calls = 2
+INFO  19:28:52,603 -  Deklarisanih promenljivih ima = 4
+INFO  19:28:52,603 - ===================================
+ERROR 19:28:52,604 - Parsiranje NIJE uspesno zavrseno!

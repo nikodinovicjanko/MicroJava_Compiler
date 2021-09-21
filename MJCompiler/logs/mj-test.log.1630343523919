@@ -1,0 +1,16 @@
+INFO  19:11:06,203 - Compiling source file: C:\Users\Janko\OneDrive\Desktop\MJCompilerProject\workspace\MJCompiler\test\program.mj
+INFO  19:11:06,243 - #2 program
+INFO  19:11:06,243 - #40 test301
+INFO  19:11:06,243 - #40 int
+INFO  19:11:06,244 - #40 a
+INFO  19:11:06,244 - #8 ;
+INFO  19:11:06,245 - #3 {
+INFO  19:11:06,245 - #11 void
+INFO  19:11:06,246 - #40 main
+INFO  19:11:06,246 - #5 (
+INFO  19:11:06,246 - #6 )
+INFO  19:11:06,247 - #40 a
+INFO  19:11:06,247 - #14 =
+ERROR 19:11:06,247 - 
+Sintaksna greska na liniji 14
+ERROR 19:11:06,247 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 14

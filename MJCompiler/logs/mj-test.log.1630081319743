@@ -1,0 +1,130 @@
+INFO  18:20:11,807 - Compiling source file: C:\Users\Janko\OneDrive\Desktop\MJCompilerProject\workspace\MJCompiler\test\program.mj
+INFO  18:20:11,836 - #2 program
+INFO  18:20:11,836 - #40 MJProgram
+INFO  18:20:11,836 - #40 int
+INFO  18:20:11,837 - #40 x
+INFO  18:20:11,838 - #8 ;
+INFO  18:20:11,838 - #40 int
+INFO  18:20:11,838 - #40 y
+INFO  18:20:11,838 - #8 ;
+INFO  18:20:11,838 - #40 int
+INFO  18:20:11,839 - #40 a
+INFO  18:20:11,839 - #18 [
+INFO  18:20:11,839 - #19 ]
+INFO  18:20:11,839 - #8 ;
+INFO  18:20:11,839 - #29 const
+INFO  18:20:11,839 - #40 int
+INFO  18:20:11,839 - #40 c
+INFO  18:20:11,839 - #14 =
+INFO  18:20:11,839 - #39 12
+INFO  18:20:11,839 - #8 ;
+INFO  18:20:11,840 - #3 {
+INFO  18:20:11,840 - #11 void
+INFO  18:20:11,841 - #40 main
+INFO  18:20:11,841 - #5 (
+INFO  18:20:11,841 - #6 )
+INFO  18:20:11,842 - #40 char
+INFO  18:20:11,842 - #40 str
+INFO  18:20:11,842 - #8 ;
+INFO  18:20:11,842 - #29 const
+INFO  18:20:11,842 - #40 bool
+INFO  18:20:11,842 - #40 flag
+INFO  18:20:11,842 - #14 =
+INFO  18:20:11,842 - #41 true
+INFO  18:20:11,842 - #8 ;
+INFO  18:20:11,842 - #3 {
+INFO  18:20:11,842 - #4 }
+INFO  18:20:11,843 - #4 }
+INFO  18:20:11,844 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ItemDeclarations(
+    ItemDeclarations(
+      ItemDeclarations(
+        ItemDeclarations(
+          NoItemDecl(
+          ) [NoItemDecl]
+          VarSingle(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+             x
+            ) [VarDecl]
+          ) [VarSingle]
+        ) [ItemDeclarations]
+        VarSingle(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+           y
+          ) [VarDecl]
+        ) [VarSingle]
+      ) [ItemDeclarations]
+      VarArr(
+        ArrayDecl(
+          Type(
+           int
+          ) [Type]
+         a
+        ) [ArrayDecl]
+      ) [VarArr]
+    ) [ItemDeclarations]
+    Constant(
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        OneConst(
+          SingleNumConst(
+           c
+           12
+          ) [SingleNumConst]
+        ) [OneConst]
+      ) [ConstDecl]
+    ) [Constant]
+  ) [ItemDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      ItemDeclarations(
+        ItemDeclarations(
+          NoItemDecl(
+          ) [NoItemDecl]
+          VarSingle(
+            VarDecl(
+              Type(
+               char
+              ) [Type]
+             str
+            ) [VarDecl]
+          ) [VarSingle]
+        ) [ItemDeclarations]
+        Constant(
+          ConstDecl(
+            Type(
+             bool
+            ) [Type]
+            OneConst(
+              SingleBoolConst(
+               flag
+               true
+              ) [SingleBoolConst]
+            ) [OneConst]
+          ) [ConstDecl]
+        ) [Constant]
+      ) [ItemDeclarations]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:20:11,845 - ===================================

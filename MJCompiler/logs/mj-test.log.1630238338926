@@ -1,0 +1,99 @@
+INFO  13:55:38,926 - Compiling source file: C:\Users\Janko\OneDrive\Desktop\MJCompilerProject\workspace\MJCompiler\test\program.mj
+INFO  13:55:38,967 - #2 program
+INFO  13:55:38,967 - #40 test301
+INFO  13:55:38,967 - #40 int
+INFO  13:55:38,969 - #40 jedan
+INFO  13:55:38,970 - #8 ;
+INFO  13:55:38,970 - #3 {
+INFO  13:55:38,971 - #11 void
+INFO  13:55:38,972 - #40 main
+INFO  13:55:38,972 - #5 (
+INFO  13:55:38,972 - #6 )
+INFO  13:55:38,973 - #40 int
+INFO  13:55:38,973 - #40 bodovi
+INFO  13:55:38,973 - #8 ;
+INFO  13:55:38,973 - #40 char
+INFO  13:55:38,973 - #40 bodovi2
+INFO  13:55:38,973 - #8 ;
+INFO  13:55:38,973 - #3 {
+INFO  13:55:38,973 - #9 print
+INFO  13:55:38,974 - #5 (
+INFO  13:55:38,974 - #39 1
+INFO  13:55:38,975 - #6 )
+INFO  13:55:38,976 - #8 ;
+INFO  13:55:38,976 - #4 }
+INFO  13:55:38,977 - #4 }
+INFO  13:55:38,995 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ItemDeclarations(
+    NoItemDecl(
+    ) [NoItemDecl]
+    VarSingle(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+       jedan
+      ) [VarDecl]
+    ) [VarSingle]
+  ) [ItemDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      ItemDeclarations(
+        ItemDeclarations(
+          NoItemDecl(
+          ) [NoItemDecl]
+          VarSingle(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+             bodovi
+            ) [VarDecl]
+          ) [VarSingle]
+        ) [ItemDeclarations]
+        VarSingle(
+          VarDecl(
+            Type(
+             char
+            ) [Type]
+           bodovi2
+          ) [VarDecl]
+        ) [VarSingle]
+      ) [ItemDeclarations]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        PrintStatementNoArg(
+          ExprS(
+            Positive(
+            ) [Positive]
+            TermS(
+              NumFactor(
+               1
+              ) [NumFactor]
+            ) [TermS]
+          ) [ExprS]
+        ) [PrintStatementNoArg]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:55:38,995 - ===================================
+INFO  13:55:39,001 - Deklarisana promenljiva jedan tipa 1 na liniji 4
+INFO  13:55:39,001 - Obradjuje se funkcija main na liniji 6
+INFO  13:55:39,001 - Deklarisana promenljiva bodovi tipa 1 na liniji 7
+INFO  13:55:39,001 - Deklarisana promenljiva bodovi2 tipa 1 na liniji 8
+INFO  13:55:39,001 -  Print count calls = 1
+INFO  13:55:39,001 -  Deklarisanih promenljivih ima = 3
+INFO  13:55:39,002 - ===================================
+INFO  13:55:39,010 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,22 @@
+INFO  12:38:38,423 - Compiling source file: C:\Users\Janko\OneDrive\Desktop\MJCompilerProject\workspace\MJCompiler\test\program.mj
+INFO  12:38:38,453 - #2 program
+INFO  12:38:38,453 - #40 test301
+INFO  12:38:38,454 - #40 int
+INFO  12:38:38,454 - #40 a
+INFO  12:38:38,459 - #8 ;
+INFO  12:38:38,460 - #40 int
+INFO  12:38:38,460 - #40 c
+INFO  12:38:38,461 - #8 ;
+INFO  12:38:38,461 - #40 char
+INFO  12:38:38,461 - #40 s
+INFO  12:38:38,461 - #8 ;
+INFO  12:38:38,461 - #40 bool
+INFO  12:38:38,461 - #40 f
+INFO  12:38:38,461 - #8 ;
+INFO  12:38:38,461 - #29 const
+INFO  12:38:38,461 - #40 int
+INFO  12:38:38,461 - #40 a1
+INFO  12:38:38,461 - #8 ;
+ERROR 12:38:38,461 - 
+Sintaksna greska na liniji 8
+ERROR 12:38:38,461 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 8
